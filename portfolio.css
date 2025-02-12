@@ -1,0 +1,107 @@
+:root {
+    --primary-color: rgb(55, 122, 216);
+    --secondary-color: white;
+    --header-color: rgb(147, 114, 114);
+    --second-head-color: darkblue;
+    --text-color: black;
+    --font: Fantasy, Georgia;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+body {
+    background-color: var(--primary-color);
+    text-align: left;
+    font-family: var(--font)
+}
+
+.top_part {
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    background: rgb(206, 104, 104);
+    color: var(--text-color);
+    width: 96.8vw;
+    left: 0;
+    z-index: 10;
+    font-family: var(--font)
+}
+
+.flex-container {
+    display: flex;
+    background-color: var(--secondary-color);
+    font-family: var(--font)
+}
+
+a {
+    color: var(--second-head-color);
+    text-decoration: none;
+    font-family: var(--font)
+}
+
+a:hover {
+    color: var(--second-head-color);
+    font-family: var(--font)
+}
+
+a:active {
+    color: var(--header-color);
+    font-family: var(--font)
+}
+
+a:visited {
+    color: var(--text-color);
+    font-family: var(--font)
+}
+
+.flex-container>div {
+    background-color: var(--header-color);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    font-family: var(--font)
+}
+
+.image_of_me {
+    background-color: var(--secondary-color);
+    font-family: var(--font);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 280px;
+    /* Adjust size */
+    height: 400px;
+    /* Make width and height equal */
+    border-radius: 80%;
+    /* Makes it a circle */
+}
+
+.about {
+    background-color: var(--secondary-color);
+    font-family: var(--font);
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+.soloprojects {
+    background-color: var(--secondary-color);
+    font-family: var(--font)
+}
+
+.groupprojects {
+    background-color: var(--secondary-color);
+    font-family: var(--font)
+}
+
+.contactInfo {
+    background-color: var(--secondary-color);
+    font-family: var(--font)
+}
